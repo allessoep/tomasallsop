@@ -34,7 +34,9 @@
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
-    text-decoration: none;
+    text-decoration: none !important;
+    outline: none;
+    border: 0;
   }
 }
 
