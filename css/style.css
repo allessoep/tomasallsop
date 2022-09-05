@@ -15,21 +15,21 @@
   #maincontent {
     display: flex;
     flex-direction: column;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
 
   #maincontenttitel {
-    font-size: 5em;
-    padding: 10px;
+    font-size: 3.5em;
+    margin: 2px;
     color: red;
     font-family: helvetica;
     overflow-y: hidden;
+    text-align: right;
   }
 
   #maincontenttext {
-    font-size: 5em;
-    margin: 10px;
+    font-size: 3.5em;
     color: black;
     font-family: helvetica;
     overflow-y: hidden;
@@ -48,19 +48,22 @@
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
   }
 
   #maincontenttitel {
-    font-size: 12em;
+    font-size: 8em;
     color: red;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: helvetica;
     overflow-y: hidden;
   }
 
   #maincontenttext {
-    font-size: 12em;
+    font-size: 8em;
     color: black;
     margin: 10px;
     font-family: helvetica;
