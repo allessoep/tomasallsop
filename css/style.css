@@ -22,19 +22,19 @@
 
   #maincontenttitel {
     font-size: 3.5em;
-    margin: 2px;
     color: red;
+    margin: 2px;
     font-family: helvetica;
     overflow-y: hidden;
   }
 
   #maincontenttext {
     font-size: 3.5em;
-    color: black;
+    color: white;
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
-    color: white;
+    text-decoration: none;
   }
 }
 
@@ -66,12 +66,10 @@
 
   #maincontenttext {
     font-size: 8em;
-    color: black;
+    color: white;
     margin: 10px;
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
-    color: white;
-
   }
 }
