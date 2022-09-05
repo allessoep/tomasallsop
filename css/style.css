@@ -34,10 +34,15 @@
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
+  }
+
+  #maincontenttext p {
     text-decoration: none !important;
     outline: none;
     border: 0;
   }
+
+
 }
 
 /* desktop version */
@@ -73,5 +78,11 @@
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
+  }
+
+  #maincontenttext p {
+    text-decoration: none !important;
+    outline: none;
+    border: 0;
   }
 }
