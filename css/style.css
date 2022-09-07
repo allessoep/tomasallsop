@@ -12,19 +12,23 @@
     /* Firefox */
   }
 
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   #maincontent {
     display: flex;
     flex-direction: column;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    padding-right: 20px;
-    padding-left: 20px;
-      padding-bottom: 10px;
-    background-color: blue;
-  }
+    align-self: center;
+    justify-content: center;
+    width: 80vw;
+    height: 80vw;
+    padding-bottom: 10px;
+    }
 
   #maincontenttitel {
-    font-size: 3.5em;
+    font-size: 12vw;
     color: red;
     margin: 2px;
     font-family: helvetica;
@@ -32,8 +36,7 @@
   }
 
   #maincontenttext {
-    font-size: 3.5em;
-    color: white;
+    font-size: 12vw;
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
@@ -58,16 +61,18 @@
   #maincontent {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
     overflow-y: hidden;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    width: 20vw;
+    height: 20vw;
     padding-right: 10px;
     padding-left: 10px;
-    background-color: blue;
+
   }
 
   #maincontenttitel {
-    font-size: 8em;
+    font-size: 3em;
     color: red;
     margin-top: 10px;
     margin-right: 10px;
@@ -77,11 +82,12 @@
   }
 
   #maincontenttext {
-    font-size: 8em;
-    color: white;
+    font-size: 3em;
     margin: 10px;
     font-family: helvetica;
     overflow-y: hidden;
     direction: rtl;
   }
+
+
 }
