@@ -1,67 +1,325 @@
 * {
-  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-body {
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(58, 58, 58, 1) 26%, rgba(122, 122, 122, 1) 64%, rgba(0, 0, 0, 1) 100%);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
+/* mobile version */
+@media only screen and (max-width : 1299px) {
+  * {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  #filterbarcontent {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15vw;
+    color: black;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100vw;
+    position: fixed;
+    font-size: 0.8em;
+    border-bottom: solid 1.7px;
+  }
+
+  #sidebar {}
+
+  #sidebarcontent {
+    display: flex;
+    flex-direction: column;
+    border-top: solid;
+    margin-top: 45vh;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    color: black;
+    position: fixed;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    visibility: hidden;
+    border-top: solid 1.7px;
+  }
+
+  #sidebartitel {
+    font-size: 2.5em;
+    padding-top: 4vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  #sidebartekst {
+    font-size: 1.2em;
+    padding: 8vw;
+    overflow-y: scroll;
+  }
+
+  #sidebarimages {
+    font-size: 1.2em;
+    padding: 1vw;
+    overflow-y: scroll;
+    padding-left: 7.5vw;
+  }
+
+  #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: white;
+    background: linear-gradient(0deg, rgba(140, 192, 212, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  }
+
+  #block1 {
+    width: 40vw;
+    height: 20vh;
+    overflow-wrap: break-word;
+    margin: 2vw;
+    padding: 2px;
+  }
+
+  .lightblock {
+    width: 40vw;
+    height: 20vh;
+    overflow-wrap: break-word;
+    margin: 2vw;
+    padding: 2px;
+    padding-bottom: 30px;
+  }
+
+  .artblock {
+    width: 40vw;
+    height: 20vh;
+    overflow-wrap: break-word;
+    margin: 2vw;
+    padding: 2px;
+    padding-bottom: 30px;
+  }
+
+  .natureblock {
+    width: 40vw;
+    height: 20vh;
+    overflow-wrap: break-word;
+    margin: 2vw;
+    padding: 2px;
+    padding-bottom: 30px;
+  }
+
+  .artimage {
+    width: 40vw;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  .sidebarimage {
+    padding-top: 20px;
+    width: 85vw;
+    object-fit: cover;
+  }
+
+  #logoimage {
+    width: 10vh;
+    padding-left: 3vh;
+  }
+
+  #lightbutton {
+    margin-left: 2vh;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.6em;
+    border: solid 1.7px;
+  }
+
+  #artbutton {
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.6em;
+    border: solid 1.7px;
+  }
+
+  #naturebutton {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.6em;
+    margin-right: 2vh;
+    border: solid 1.7px;
+  }
+
+  #contact {
+    visibility: hidden;
+  }
+
+  #maincontent p {
+    visibility: visible;
+  }
 }
 
-div.container {
-  perspective: 1px;
-  height: 100vh;
-  width: 50%;
-  overflow-x: hidden;
-  perspective-origin: 100% initial
-}
+/* desktop version */
+@media only screen and (min-width : 1300px) {
+  * {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
 
-div.layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  transform-origin: 100% initial;
-  word-wrap: break-word
-}
+  /* chrome */
+  *::-webkit-scrollbar {
+    display: none;
+  }
 
-div.layer>span, div.layer>img {
-  pointer-events: none
-}
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 
-div#layer-1 {
-  position: absolute;
-  width: 400px;
-  height: 200px;
-  z-index: 1;
-  pointer-events: none;
-  background-color: white;
-  visibility: hidden;
-}
+  #filterbarcontent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%; 
+    color: black;
+    padding: 6px;
+    padding-left: 2vw;
+    padding-right: 20px;
+    /* moving title */
+    position: fixed;
+    font-size: 1.6em;
+    border-bottom: solid 1.7px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(218, 218, 218, 1) 100%);
+  }
 
-div#layer-2 {
-  z-index: 4;
-  transform: translateZ(0)
-}
+  #sidebarcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    align-items: flex-start;
+    color: black;
+    padding-left: 1vw;
+    padding-top: 10vh;
+    width: 27vw;
+    height: 100vh;
+    position: fixed;
+    border-right: solid 1.7px;
+    background-color: white;
+    margin-bottom: 20vw;
+  }
 
-div#layer-3 {
-  z-index: 3;
-  transform: translateZ(-0.1px) scale(1.1)
-}
+  #benenbeelden {
+    visibility: visible;
+  }
 
-div#layer-4 {
-  z-index: 2;
-  transform: translateZ(-0.2px) scale(1.2)
-}
+  #sidebartitel {
+    font-size: 3.5em;
+    padding-bottom: 2vh;
+    padding: 1vw;
+    padding-top: 1.5vh;
+  }
 
-div#layer-5 {
-  z-index: 1;
-  transform: translateZ(-0.3px) scale(1.3)
-}
+  #sidebartekst {
+    font-size: 1.2em;
+    padding: 1vw;
+  }
+
+  #sidebarimages {
+    font-size: 1.2em;
+    padding: 1vw;
+  }
+
+  #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 12vh;
+    padding-left: 64vh;
+    padding-right: 5vh;
+    padding-bottom: 2vh;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 37%, rgba(140, 192, 212, 1) 100%);
+  }
+
+  .lightblock {
+    width: 25vh;
+    height: 25vh;
+    overflow-wrap: break-word;
+    padding: 2px;
+    margin: .5vw;
+  }
+
+  .artblock {
+    width: 25vh;
+    height: 25vh;
+    overflow-wrap: break-word;
+    padding: 2px;
+    margin: .5vw;
+  }
+
+  .natureblock {
+    width: 25vh;
+    height: 25vh;
+    overflow-wrap: break-word;
+    padding: 2px;
+    margin: .5vw;
+  }
+
+  .artimage {
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+  }
+
+  .sidebarimage {
+    padding-top: 20px;
+    width: 24vw;
+    object-fit: cover;
+  }
+
+  #logoimage {
+    width: 12vh;
+    padding-right: 2vw;
+    padding-top: 0.8vh;
+  }
+
+  #lightbutton {
+    margin-top: 2.5vh;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1.7px;
+  }
+
+  #artbutton {
+    margin-right: 10px;
+    margin-top: 2.5vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1.7px;
+  }
+
+  #naturebutton {
+    padding-left: 5px;
+    margin-top: 2.5vh;
+    padding-right: 5px;
+    border: solid 1.7px;
+  }
+
+  #contact {
+    padding-left: 16vh;
+    padding-top: 2.5vh;
+    padding-right: 5px;
+  }
+
+  /*removing titel*/
+  #maincontent p {
+    visibility: hidden;
+  }
