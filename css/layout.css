@@ -1,4 +1,11 @@
 @media only screen and (max-width : 1299px) {
+  * {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
   div#layer-1 {
     width: 49%;
     z-index: 1;
@@ -29,6 +36,18 @@
     overflow-y: hidden;
     font-size: 30px;
     color: white;
+  }
+
+  * {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  /* chrome */
+  *::-webkit-scrollbar {
+    display: none;
   }
 }
 
