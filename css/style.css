@@ -7,7 +7,6 @@
 @media only screen and (max-width : 1000px) {
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(58, 58, 58, 1) 26%, rgba(122, 122, 122, 1) 64%, rgba(0, 0, 0, 1) 100%);
   }
 
@@ -37,6 +36,7 @@
     flex-direction: column;
     order: 1;
     margin-bottom: 20px;
+    margin-top: 20px;
     width: 80vw;
     height: 15vh;
     color: white;
@@ -49,7 +49,7 @@
     flex-direction: column;
     order: 2;
     margin-bottom: 4px;
-    height: 80vh;
+    height: 65vh;
     color: white;
     overflow: scroll;
     overflow-x: hidden;
@@ -59,14 +59,16 @@
     display: flex;
     flex-direction: column;
     order: 3;
-    height: 32vh;
+    height: 0vh;
     color: white;
     overflow: scroll;
     overflow-x: hidden;
     visibility: hidden;
   }
 
-  #footer {}
+  #footer {
+
+  }
 
   #footercontent {
     display: flex;
@@ -76,8 +78,7 @@
     max-width: 100%;
     color: white;
     font-size: 0.95em;
-    visibility: hidden;
-      }
+        }
 
   #texttest {
     display: flex;
