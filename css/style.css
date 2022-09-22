@@ -7,6 +7,8 @@
 @media only screen and (max-width : 1000px) {
   body {
     overflow-x: hidden;
+    height: 100vh;
+    max-height: 100vh;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(58, 58, 58, 1) 26%, rgba(122, 122, 122, 1) 64%, rgba(0, 0, 0, 1) 100%);
   }
 
