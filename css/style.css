@@ -43,6 +43,7 @@
     order: 2;
     width: 90vw;
     height: 20vh;
+    margin-bottom: 2vw;
     color: white;
     font-size: 0.90em;
     overflow: scroll;
@@ -53,15 +54,16 @@
   #column2 {
     display: flex;
     flex-direction: column;
-    order: 2;
+    order: 4;
     margin-bottom: 0px;
     width: 90vw;
-    height: 0vh;
+    height: 20vh;
     color: white;
     margin-bottom: 0px;
+    border: solid 1px grey;
     overflow: scroll;
     overflow-x: hidden;
-    visibility: hidden;
+
   }
 
   #column3 {
@@ -73,7 +75,7 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
     padding: 10px;
-    height: 30vh;
+    height: 20vh;
     color: white;
     font-size: 0.90em;
     overflow: scroll;
@@ -90,9 +92,10 @@
     order: 4;
     color: white;
     width: 90vw;
-    height: 40vh;
+    height: 30vh;
     overflow-y: scroll;
     text-align: left;
+    margin-bottom: 2vw;
     /* hide scrollbar */
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -111,7 +114,6 @@
     width: 90%;
     border: solid 1px grey;
     margin-top: 2vw;
-
   }
 
   #footercontent {
@@ -141,7 +143,6 @@
   }
 
   .column2image {
-    padding-bottom: 10px;
     height: 50vw;
     width: 50vw;
   }
@@ -174,10 +175,9 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 10px;
     width: 11vw;
     max-width: 100%;
-    height: 7vh;
+    height: 4vh;
   }
 
   #columns {
@@ -189,7 +189,7 @@
     order: 1;
     color: white;
     width: 50%;
-    height: 73vh;
+    height: 82vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 5vw;
@@ -248,7 +248,7 @@
     order: 1;
     color: white;
     width: 20vw;
-    height: 72.4vh;
+    height: 81.3vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 29vw;
@@ -303,10 +303,9 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 10px;
     width: 18vw;
     max-width: 100%;
-    height: 7vh;
+    height: 4vh;
   }
 
   #texttest {
@@ -321,7 +320,6 @@
   }
 
   .column2image {
-    padding-bottom: 10px;
     height: 12vw;
     width: 12vw;
   }
