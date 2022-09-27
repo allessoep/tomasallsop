@@ -136,14 +136,15 @@
   #texttest {
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     text-align: left;
   }
 
-  #texttest p {
-    padding-bottom: 3px;
+  p {
     font-size: 0.90em;
   }
+
+
 
   .column2image {
     height: 50vw;
