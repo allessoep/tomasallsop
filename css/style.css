@@ -13,20 +13,22 @@
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(58, 58, 58, 1) 26%, rgba(122, 122, 122, 1) 64%, rgba(0, 0, 0, 1) 100%);
   }
 
-  #header {}
+  #header {
+    margin-left: 4.5%;
+    width: 90%;
+    border: solid 1px grey;
+
+  }
 
   #headercontent {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     color: white;
-    width: 100%;
-    margin-top: 10px;
-    max-width: 100%;
-    position: fixed;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 0.95em;
-    visibility: hidden;
-
   }
 
   #columns {
@@ -40,43 +42,74 @@
   #column1 {
     display: flex;
     flex-direction: column;
-    order: 1;
-      width: 90vw;
-    height: 10vh;
+    order: 2;
+    width: 90vw;
+    height: 20vh;
     color: white;
     overflow: scroll;
     overflow-x: hidden;
-    margin-bottom: 30px;
-          }
+    border: solid 1px grey;
+  }
 
   #column2 {
     display: flex;
     flex-direction: column;
     order: 2;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
     width: 90vw;
-    height: 40vh;
+    height: 0vh;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     overflow: scroll;
     overflow-x: hidden;
+    visibility: hidden;
   }
 
   #column3 {
     display: flex;
     flex-direction: column;
-    order: 3;
-    width: 50vw;
-    margin-right: 40vw;
+    order: 1;
+    width: 60vw;
+    margin-right: 30vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     height: 30vh;
     color: white;
+    font-size: 1em;
     overflow: scroll;
     overflow-x: hidden;
+    border: solid 1px grey;
+
+  }
+
+  #column3 p {
+    padding-bottom: 8px;
+  }
+
+  #imagecolumn {
+
+    order: 4;
+    color: white;
+    width: 90vw;
+    height: 40vh;
+    overflow-y: scroll;
+    text-align: left;
+    /* hide scrollbar */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    border: solid 1px grey;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
   }
 
   #footer {
-  visibility: hidden;
-      }
+    visibility: hidden;
+  }
 
   #footercontent {
     display: flex;
@@ -86,7 +119,6 @@
     max-width: 100%;
     color: white;
     font-size: 0.95em;
-
   }
 
   #texttest {
@@ -104,7 +136,6 @@
     padding-bottom: 10px;
     height: 50vw;
     width: 50vw;
-    opacity: 0.8;
   }
 }
 
@@ -126,6 +157,7 @@
   #header {
     display: flex;
     flex-direction: column;
+    border: solid 1px grey;
   }
 
   #headercontent {
@@ -153,6 +185,7 @@
     margin-right: 3vw;
     overflow-y: scroll;
     text-align: center;
+    border: solid 1px grey;
     /* hide scrollbar */
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -164,7 +197,7 @@
     order: 2;
     color: white;
     width: 25vw;
-    height: 80vh;
+    height: 30vh;
     margin-left: 6vw;
     margin-right: 6vw;
     overflow-y: scroll;
@@ -174,15 +207,16 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    border: solid 1px grey;
   }
 
   #column3 {
     order: 3;
     color: white;
-    width: 16vw;
-    height: 40vh;
+    width: 25vw;
+    height: 30vh;
     margin-left: 3vw;
-    margin-right: 4vw;
+    margin-right: 5vw;
     overflow-y: scroll;
     text-align: left;
     /* hide scrollbar */
@@ -190,6 +224,32 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    border: solid 1px grey;
+  }
+
+  #imagecolumn {
+    order: 1;
+    color: white;
+    width: 20vw;
+    height: 80vh;
+    margin-left: 29.5vw;
+    overflow-y: scroll;
+    text-align: left;
+    /* hide scrollbar */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    border: solid 1px grey;
+  }
+
+  #column3 p {
+    padding-bottom: 6px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
   }
 
   /* hide scrollbar */
@@ -210,6 +270,7 @@
     align-items: flex-end;
     /* footer on the right */
     justify-content: flex-end;
+    border: solid 1px grey;
   }
 
   #footercontent {
@@ -238,6 +299,5 @@
     padding-bottom: 10px;
     height: 12vw;
     width: 12vw;
-    opacity: 0.8;
   }
 }
