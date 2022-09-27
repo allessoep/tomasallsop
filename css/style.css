@@ -57,8 +57,8 @@
     order: 4;
     margin-bottom: 0px;
     font-size: 0.90em;
-    padding: 5px;
     width: 90vw;
+    padding: 5px;
     height: 20vh;
     color: white;
     margin-bottom: 0px;
@@ -195,9 +195,7 @@
     order: 1;
     color: white;
     width: 50%;
-    height: 82vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    height: 87vh;
     margin-left: 5vw;
     margin-right: 3vw;
     overflow-y: scroll;
@@ -215,9 +213,7 @@
     color: white;
     width: 25vw;
     height: 30vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-left: 6vw;
+      margin-left: 6vw;
     margin-right: 6vw;
     padding: 3px;
     overflow-y: scroll;
@@ -235,8 +231,6 @@
     color: white;
     width: 25vw;
     height: 30vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
     margin-left: 3vw;
     margin-right: 5vw;
     padding: 3px;
@@ -254,9 +248,7 @@
     order: 1;
     color: white;
     width: 20vw;
-    height: 81.3vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    height: 86.4vh;
     margin-left: 29vw;
     padding: 3px;
     overflow-y: scroll;
