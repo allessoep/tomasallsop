@@ -17,7 +17,7 @@
     margin-left: 4.5%;
     width: 90%;
     border: solid 1px grey;
-    margin-top: 4vw;
+    margin-top: 6vw;
   }
 
   #headercontent {
@@ -138,8 +138,13 @@
     text-align: left;
   }
 
+  p {
+    font-size: 0.90em;
+  }
+
   #texttest p {
     padding-bottom: 3px;
+    font-size: 0.90em;
   }
 
   .column2image {
