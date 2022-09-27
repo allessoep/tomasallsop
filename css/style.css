@@ -56,6 +56,7 @@
     flex-direction: column;
     order: 4;
     margin-bottom: 0px;
+    font-size: 0.90em;
     width: 90vw;
     height: 20vh;
     color: white;
@@ -93,6 +94,7 @@
     color: white;
     width: 90vw;
     height: 30vh;
+      font-size: 0.90em;
     overflow-y: scroll;
     text-align: left;
     margin-bottom: 2vw;
@@ -136,10 +138,6 @@
     flex-direction: column;
     padding-bottom: 30px;
     text-align: left;
-  }
-
-  p {
-    font-size: 0.90em;
   }
 
   #texttest p {
