@@ -165,7 +165,7 @@
   #header {
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin: 10px;
     border: solid 1px grey;
   }
 
@@ -189,7 +189,7 @@
     order: 1;
     color: white;
     width: 50%;
-    height: 76vh;
+    height: 73vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 5vw;
@@ -248,7 +248,7 @@
     order: 1;
     color: white;
     width: 20vw;
-    height: 76vh;
+    height: 72.4vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 29vw;
@@ -295,6 +295,7 @@
     /* footer on the right */
     justify-content: flex-end;
     border: solid 1px grey;
+    margin: 10px;
   }
 
   #footercontent {
