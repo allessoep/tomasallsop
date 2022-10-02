@@ -58,7 +58,7 @@
     order: 4;
     margin-bottom: 0px;
     font-size: 0.90em;
-    width: 89vw;
+    width: 88vw;
     padding: 5px;
     height: 20vh;
     color: white;
@@ -138,8 +138,11 @@
   #texttest {
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
     text-align: left;
+  }
+
+  #texttest p {
+    padding-bottom: 15px;
   }
 
   p {
@@ -309,15 +312,14 @@
   #texttest {
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
     text-align: left;
   }
 
   #texttest p {
-    padding-bottom: 3px;
+    padding-bottom: 20px;
   }
 
-  .column2image {
+    .column2image {
     height: 12vw;
     width: 12vw;
   }
