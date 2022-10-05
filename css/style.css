@@ -58,7 +58,7 @@
     order: 4;
     margin-bottom: 0px;
     font-size: 0.90em;
-    width: 88vw;
+    width: 89.5vw;
     padding: 5px;
     height: 20vh;
     color: white;
@@ -147,9 +147,8 @@
 
   p {
     font-size: 0.90em;
+    padding-bottom: 0px;
   }
-
-
 
   .column2image {
     height: 50vw;
@@ -200,7 +199,7 @@
     width: 50%;
     height: 87vh;
     margin-left: 5vw;
-    margin-right: 3vw;
+    margin-right: 0vw;
     overflow-y: scroll;
     text-align: center;
     border: solid 1px grey;
@@ -216,7 +215,7 @@
     color: white;
     width: 25vw;
     height: 30vh;
-      margin-left: 6vw;
+      margin-left: 1vw;
     margin-right: 6vw;
     padding: 3px;
     overflow-y: scroll;
@@ -252,7 +251,7 @@
     color: white;
     width: 20vw;
     height: 86.4vh;
-    margin-left: 29vw;
+    margin-left: 28.4vw;
     padding: 3px;
     overflow-y: scroll;
     text-align: left;
@@ -313,6 +312,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding-bottom: 5px;
   }
 
   #texttest p {
