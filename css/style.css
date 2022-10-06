@@ -66,7 +66,6 @@
     border: solid 1px grey;
     overflow: scroll;
     overflow-x: hidden;
-
   }
 
   #column3 {
@@ -84,7 +83,6 @@
     overflow: scroll;
     overflow-x: hidden;
     border: solid 1px grey;
-
   }
 
   #column3 p {
@@ -96,7 +94,7 @@
     color: white;
     width: 92vw;
     height: 30vh;
-      font-size: 0.90em;
+    font-size: 0.90em;
     overflow-y: scroll;
     text-align: left;
     margin-bottom: 2vw;
@@ -125,9 +123,8 @@
     justify-content: left;
     align-items: left;
     color: white;
-   padding: 10px;
+    padding: 10px;
     font-size: 0.90em;
-
   }
 
   #footercontent p {
@@ -153,6 +150,12 @@
   .column2image {
     height: 50vw;
     width: 50vw;
+  }
+
+  /* fetish objects */
+  .draggable {
+    width: 70vw;
+    position: absolute;
   }
 }
 
@@ -218,7 +221,7 @@
     color: white;
     width: 25vw;
     height: 30vh;
-      margin-left: 1vw;
+    margin-left: 1vw;
     margin-right: 6vw;
     padding: 3px;
     overflow-y: scroll;
@@ -275,7 +278,7 @@
     text-decoration: underline;
   }
 
-    /* hide scrollbar */
+  /* hide scrollbar */
   #column1::-webkit-scrollbar {
     display: none;
   }
@@ -321,11 +324,18 @@
     padding-bottom: 5px;
   }
 
+
   #texttest p {
     padding-bottom: 20px;
   }
 
-    .column2image {
+  .column2image {
     width: 12vw;
+  }
+
+  /* fetish objects */
+  .draggable {
+    width: 16vw;
+    position: absolute;
   }
 }
