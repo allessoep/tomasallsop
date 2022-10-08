@@ -14,7 +14,7 @@
   }
 
   #header {
-    margin-left: 3.7%;
+    margin-left: 3vw;
     width: 92%;
     border: solid 1px grey;
     margin-top: 6vw;
@@ -24,7 +24,7 @@
   #headercontent {
     display: flex;
     justify-content: right;
-    align-items: right;
+    align-items: flex-start;
     color: white;
     padding: 10px;
     font-size: 0.90em;
@@ -33,14 +33,11 @@
   #columns {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    align-items: flex-start;
+    padding-left: 3vw;
   }
 
   #column1 {
-    display: flex;
-    flex-direction: column;
     order: 2;
     width: 91vw;
     height: 20vh;
@@ -53,8 +50,6 @@
   }
 
   #column2 {
-    display: flex;
-    flex-direction: column;
     order: 4;
     margin-bottom: 0px;
     font-size: 0.90em;
@@ -69,12 +64,8 @@
   }
 
   #column3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     order: 1;
     width: 62vw;
-    margin-right: 27vw;
     margin-bottom: 2vw;
     padding: 5px;
     height: 15vh;
@@ -112,16 +103,13 @@
   }
 
   #footer {
-    margin-left: 3.7%;
+    margin-left: 3vw;
     width: 92%;
     border: solid 1px grey;
     margin-top: 2vw;
   }
 
   #footercontent {
-    display: flex;
-    justify-content: left;
-    align-items: left;
     color: white;
     padding: 10px;
     font-size: 0.90em;
