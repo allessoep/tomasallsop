@@ -20,8 +20,6 @@
     margin-left: 3vw;
     width: 92%;
     border: solid 1px grey;
-    margin-top: 6vw;
-    margin-bottom: 2vw;
     visibility: hidden;
   }
 
@@ -30,7 +28,7 @@
     justify-content: right;
     align-items: flex-start;
     color: white;
-    padding: 10px;
+    padding: 2vh;
     font-size: 0.90em;
   }
 
