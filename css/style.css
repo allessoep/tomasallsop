@@ -10,7 +10,7 @@
     max-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #d1d8e5;
     background-position: top ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,15 +41,15 @@
 
   #column1 {
     order: 1;
-    width: 80vw;
+    width: 90vw;
     height: 20vh;
     margin-bottom: 6vw;
       padding: 5px;
-    color: white;
+    color: blue;
     font-size: 0.80em;
     overflow: scroll;
     overflow-x: hidden;
-    border: solid 1px grey;
+    border: solid 1px black;
     /* hide scrollbar */
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -63,7 +63,7 @@
     margin-bottom: 3vw;
     padding: 5px;
     height: 50vh;
-    color: white;
+    color: black;
     font-size: 0.80em;
     overflow: scroll;
     overflow-x: hidden;
@@ -72,11 +72,11 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
-    border: solid 1px grey;
+    border: solid 1px blue;
       }
 
   #column3 p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   #texttest  {
@@ -156,7 +156,7 @@
     max-height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: black;
+    background-color: #d1d8e5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -180,7 +180,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 2vw;
-    color: white;
+    color: black;
     max-width: 100%;
     height: 4vh;
   }
@@ -192,14 +192,14 @@
 
   #column1 {
     order: 1;
-    color: white;
+    color: blue;
     width: 40%;
     height: 50vh;
     margin-left: 5vw;
     margin-right: 0vw;
     padding: 10px;
     overflow-y: scroll;
-      border: solid 1px grey;
+      border: solid 1px black;
     /* hide scrollbar */
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -227,7 +227,7 @@
 
   #column3 {
     order: 3;
-    color: white;
+    color: black;
     width: 25vw;
     height: 87vh;
     margin-left: 1vw;
@@ -240,13 +240,13 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
-    border: solid 1px grey;
+    border: solid 1px blue;
 
   }
 
   #imagecolumn {
     order: 1;
-    color: white;
+    color: black;
     width: 15vw;
     height: 86.4vh;
     margin-left: 32.35vw;
@@ -306,7 +306,7 @@
     align-items: center;
     padding-right: 2vw;
     height: 4vh;
-    color: white;
+    color: black;
     max-width: 100%;
     height: 4vh;
   }
@@ -315,7 +315,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
   }
 
 
